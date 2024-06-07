@@ -1,7 +1,7 @@
 *{
 	margin:0;
 	padding:0;
-	box-model: border-box;
+	box-sizing: border-box;
 }
 
 body{
@@ -58,7 +58,7 @@ header{
 	height: 120px;
 	position: absolute;
 	top: 260px;
-	margin-left:200px ;	
+	margin-left:250px ;	
 }
 .elegant{
 	text-align: center;
@@ -102,6 +102,66 @@ section{
 	height: 700px;
 	/* background-color: orange; */
 
+}
+.start{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: sans-serif;
+	margin-top: 30px;
+	color: hsla(0, 0%, 0%, 0.447);
+}
+.journey{
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+	font-family: sans-serif;
+	color: hsla(0, 0%, 0%, 0.447);
+	padding-top: 5px;
+}
+.sample{
+	width: 60%;
+	height: 35px;
+	/* border: 1px solid #000; */
+	margin: 5px auto;
+	text-align: center;
+	/* background-color: brown; */
+	color: rgba(203, 201, 197, 0.929);
+	font-weight: lighter;
+	font-family: cursive;
+	font-size: 12px;
+
+}
+.triplet{
+	width: 85%;
+	height: 320px;
+	/* border: 1px solid red; */
+	margin: 25px auto;
+	display: flex;
+	justify-content: space-between;
+
+}
+.identical{
+		width: 28%;
+		height: 260px;
+		border: 2px solid #eae7e7;
+		border-radius: 10px;
+
+}
+#window{
+	font-size: 35px;
+	color: hsla(159, 11%, 52%, 0.852);
+	margin: 0.7em 4em;
+}
+.high{
+	text-align: center;
+	font-weight: lighter;
+	font-family: sans-serif;
+	font-size: 22px;
+}
+.advert{
+	text-align: center;
+	padding-top: 10px;
 }
 
 
