@@ -92,15 +92,17 @@ header{
 	margin: 10px auto;
 	padding: 10px 20px;
 	border:none;
-	font-size: 14px;
+	font-size: 12px;
 	font-weight: light;
+	cursor: pointer;
 	
 }
 section{
 	width: 100%;
 	height: 700px;
-	background-color: orange;
+	/* background-color: orange; */
 
 }
+
 
 
