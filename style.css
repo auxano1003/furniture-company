@@ -105,6 +105,11 @@ header{
 	cursor: pointer;
 	
 }
+.contact:hover{
+	background-color: #fff;
+	color: #ed6767;
+	font-weight: bolder;
+}
 section{
 	width: 100%;
 	height: 900px;
@@ -179,22 +184,109 @@ section{
 .bigholder{
 	width: 95%;
 	height: 450px;
-	border: 1px solid #000;
+	/* border: 1px solid #000; */
 	margin: auto;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 }
 .wordsOnly{
-	width: 30%;
+	width: 26%;
 	height: 350px;
-	border: 1px solid red;
+	/* border: 1px solid red; */
+	margin: 5em 0em 0em 2.5em ;
+	padding-top: 5em;
+}
+.intro{
+	font-size: 27px;
+	color: rgb(160, 166, 171);
+	font-weight: light;
+	font-family: sans-serif;
+	/* padding-left: 5px; */
+
+}
+.faded{
+	/* text-align: left; */
+	padding-top: 10px;
+	font-weight: light;
+	/* font-family: sans-serif; */
+
+}
+.more{
+	padding: 10px 20px;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: sans-serif;
+	display: block;
+	background-color: hsl(0, 1%, 21%);
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 50px;
+	border: none;
+}
+.more:hover{
+	background-color: brown;
+	color: #eae7e7;
+	cursor: pointer;
 }
 .bigPicture{
-	width: 60%;
-	height: 400px;
-	border: 1px solid red;
-}
+	width: 55%;
+	height: 500px;
+	/* border: 1px solid red; */
+	display: flex;
+	justify-content: space-between;
+	margin-top: 48px;
+	position: relative;
 
+}
+.inter-one{
+	width: 400px;
+	height: 400px;
+	border: none;
+	border-radius: 5px;
+}
+.inter-two{
+	width: 250px;
+	height: 450px;
+	margin-top: 40px;
+	border: none;
+	border-radius: 5px;
+}
+.whiteboard{
+	width: 75%;
+	height: 180px;
+	margin-left: 20px;
+	background-color: #fff;
+	/* border: 1px solid black; */
+	position: absolute;
+	top: 300px;
+	border: none;
+	border-radius: 5px;
+}
+.avatar{
+	width: 38%;
+	height: 50px;
+	/* border: 1px solid red; */
+	margin: 25px 0px 0px 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.avatar img{
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+}
+.avatar-intro{
+	padding:10px 0px 0px 21px;
+}
+.avatar-bttn{
+	padding: 10px 20px;
+	background-color: #000;
+	color: #fff;
+	border: none;
+	display: block;
+	margin: 10px 0px 0px 20px;
+}
 
 
