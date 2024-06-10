@@ -306,5 +306,25 @@ section{
 	justify-content: space-around;
 	
 }
-
+.arrow-holder{
+	/* border: 1px solid red; */
+	width: 70px;
+	height: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 10px auto;
+}
+.arrow{
+	background-color: #0000005e;
+	color: #fff;
+	width: 30px;
+	height: 30px;
+	border: none;
+}
+.arrow:hover{
+	background-color: chartreuse;
+	color: aliceblue;
+	cursor: pointer;
+}
 
