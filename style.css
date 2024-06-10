@@ -286,7 +286,25 @@ section{
 	color: #fff;
 	border: none;
 	display: block;
-	margin: 10px 0px 0px 20px;
+	margin: 5px 0px 0px 20px;
+}
+.avatar-bttn:hover{
+	background-color: antiquewhite;
+	color: rgba(59, 57, 54, 0.811);
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 12px;
+	font-family: cursive;
+}
+.next-layer{
+	width: 95%;
+	height: 450px;
+	/* border: 1px solid red; */
+	/* background-color: #ff0; */
+	margin: 70px auto;
+	display: flex;
+	justify-content: space-around;
+	
 }
 
 
