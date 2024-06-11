@@ -112,7 +112,7 @@ header{
 }
 section{
 	width: 100%;
-	height: 900px;
+	height: 1600px;
 	/* background-color: orange; */
 
 }
@@ -183,7 +183,7 @@ section{
 
 .bigholder{
 	width: 95%;
-	height: 450px;
+	height: 600px;
 	/* border: 1px solid #000; */
 	margin: auto;
 	display: flex;
@@ -254,12 +254,12 @@ section{
 }
 .whiteboard{
 	width: 75%;
-	height: 180px;
+	height: 200px;
 	margin-left: 20px;
-	background-color: #fff;
+	background-color: #f4bdbd;
 	/* border: 1px solid black; */
 	position: absolute;
-	top: 300px;
+	top: 330px;
 	border: none;
 	border-radius: 5px;
 }
@@ -286,7 +286,7 @@ section{
 	color: #fff;
 	border: none;
 	display: block;
-	margin: 5px 0px 0px 20px;
+	margin: 10px 0px 0px 20px;
 }
 .avatar-bttn:hover{
 	background-color: antiquewhite;
@@ -301,7 +301,7 @@ section{
 	height: 450px;
 	/* border: 1px solid red; */
 	/* background-color: #ff0; */
-	margin: 70px auto;
+	margin:  auto;
 	display: flex;
 	justify-content: space-around;
 	
@@ -326,5 +326,73 @@ section{
 	background-color: chartreuse;
 	color: aliceblue;
 	cursor: pointer;
+}
+main{
+	width: 100%;
+	height: 700px;
+	/* background-color: aquamarine; */
+}
+.sledge{
+	width: 95%;
+	height: 600px;
+	border: 1px solid red;
+	margin: 35px auto;
+}
+.icon-edge{
+	width: 39%;
+	height: 550px;
+	/* border: 1px solid #000; */
+	margin: 30px 70px;
+}
+.letter-head{
+	font-size: 25px;
+	font-family: san-serif;
+	font-weight: bold;
+	text-align: left;
+	padding-top: 30px;
+	color: #00000044;
+}
+
+.alone{
+	letter-spacing: 2px;
+	font-weight: bold;
+
+}
+.flex-holder{
+	width: 100%;
+	height: 450px;
+	/* border: 1px solid red; */
+}
+.flex-child{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	height: 80px;
+	/* border: 1px solid blue; */
+	margin-top: 30px;
+}
+#hicoon{
+	width: 80px;
+	height: 80px;
+	/* border: 1px solid red; */
+	color: #eae7e7;
+	font-size: 50px;
+	display: flex;
+	align-items: center;
+}
+
+.flex-text{
+	width: 360px;
+	height: 40px;
+	/* border: 1px solid #000; */
+	padding: 5px 2px;
+	font-size: 12px;
+}
+.title{
+	font-size: 23px;
+	color: #8d8b8bcc;
+	font-weight: lighter;
+	font-family: cursive;
 }
 
