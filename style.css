@@ -451,3 +451,49 @@ footer{
 	margin: 10px 0px 0px 65px;
 	text-align: left;
 }
+.bigtray{
+	width: 90%;
+	height: 300px;
+	/* border: 1px solid #000; */
+	margin: 30px auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.siblings{
+	width: 30%;
+	height: 280px;
+	border-radius: 10px;
+	background-color: #eae7e7;
+}
+.siblings:hover{
+	background-color: #fff;
+	cursor: pointer;
+	 border: 1px solid green;
+
+}
+.quote{
+	font-size: 60px;
+	color: rgba(145, 195, 59, 0.781);
+	padding-left: 20px;
+}
+.inside-siblings{
+	padding: 10px;
+	font-weight: lighter;
+	font-family: cursive;
+}
+.avatar-siblings{
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+}
+.avatar-box{
+	width: 57%;
+	height: 50px;
+	/* border: 1px solid red; */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 15px 0px 0px 5px;
+}
+
