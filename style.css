@@ -342,9 +342,9 @@ main{
 .icon-edge{
 	width: 39%;
 	height: 550px;
-	/* border: 1px solid #000; */
 	margin: 30px 50px;
 }
+
 .letter-head{
 	font-size: 25px;
 	font-family: san-serif;
@@ -362,21 +362,19 @@ main{
 .flex-holder{
 	width: 100%;
 	height: 450px;
-	/* border: 1px solid red; */
 }
+
 .flex-child{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	width: 100%;
 	height: 80px;
-	/* border: 1px solid blue; */
 	margin-top: 30px;
 }
 #hicoon{
 	width: 80px;
 	height: 80px;
-	/* border: 1px solid red; */
 	color: #eae7e7;
 	font-size: 50px;
 	display: flex;
@@ -386,7 +384,6 @@ main{
 .flex-text{
 	width: 360px;
 	height: 40px;
-	/* border: 1px solid #000; */
 	padding: 5px 2px;
 	font-size: 12px;
 }
@@ -399,14 +396,9 @@ main{
 .tripleHolder{
 	width: 57%;
 	height: inherit;
-	/* border: 1px solid red; */
 	display: flex;
 	justify-content: space-around;
 	margin-right: 30px;
-
-	/* display: grid;
-	grid-template-columns: 1fr 2fr; */
-
 	}
 
 .tripleHolder img{
@@ -422,19 +414,17 @@ main{
 .insignale{
 	width: 300px;
 	height: inherit;
-	/* border: 2px solid #000; */
 	display: flex;
 	flex-direction: column-reverse;
 	justify-content: space-between;
 	gap: 10px;
-
 }
 
 footer{
 	width: 100%;
 	height: 500px;
-	/* background: #f0f; */
 }
+
 .intro-holding{
 	width:90%;
 	height: 30px;
