@@ -496,4 +496,21 @@ footer{
 	align-items: center;
 	margin: 15px 0px 0px 5px;
 }
+.last-tablets{
+	width: 90%;
+	height: 450px;
+	border: 1px solid #000;
+	margin: 30px auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.identical-tablets{
+	width: 30%;
+	height: 300px;
+	border: 1px solid red;
+}
+
+
 
