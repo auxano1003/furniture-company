@@ -510,6 +510,21 @@ footer{
 	height: 40px;
 	margin: 20px 0px 0px 15px;
 }
+input{
+	width: 60%;
+	height: 40px;
+	margin-left: 10px;
 
+}
+.subscribe{
+	padding: 10px 20px;
+	font-size: 14px;
+	background-color: #000;
+	color: #fff;
+	border: none;
+}
+input:placeholder{
+	padding-left: 20px;
+}
 
 
