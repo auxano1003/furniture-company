@@ -501,6 +501,15 @@ footer{
 	height: 300px;
 	border: 1px solid red;
 }
+.footer-avatar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* border: 1px solid red; */
+	width: 140px;
+	height: 40px;
+	margin: 20px 0px 0px 15px;
+}
 
 
 
