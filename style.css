@@ -489,7 +489,7 @@ footer{
 .last-tablets{
 	width: 90%;
 	height: 450px;
-	border: 1px solid #000;
+	/* border: 1px solid #000; */
 	margin: 30px auto;
 	display: flex;
 	justify-content: space-between;
@@ -499,7 +499,11 @@ footer{
 .identical-tablets{
 	width: 30%;
 	height: 300px;
-	border: 1px solid red;
+	/* border: 1px solid red; */
+}
+.identical-tablets:hover{
+	border: 1px solid grey;
+	cursor: pointer;
 }
 .footer-avatar{
 	display: flex;
@@ -512,7 +516,7 @@ footer{
 }
 input{
 	width: 60%;
-	height: 40px;
+	height: 35px;
 	margin-left: 10px;
 
 }
@@ -525,6 +529,42 @@ input{
 }
 input:placeholder{
 	padding-left: 20px;
+}
+.left-hand,.right-hand{
+	width: 150px;
+	height: 250px;
+	/* border: 1px solid #000; */
+	margin-top: 20px;
+}
+.left-hand:hover,
+.right-hand:hover{
+	background-color: antiquewhite;
+	border: 1px solid red;
+}
+.list-footer{
+	display: block;
+	width: 120px;
+}
+.list-footer li{
+	padding: 10px;
+}
+.heading-list{
+	padding-top:20px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: cursive;
+}
+.heading-list:hover{
+	color: rgb(152, 152, 42);
+	cursor: pointer;
+}
+.center{
+	display: flex;
+	justify-content: space-between;
+}
+.list-footer li:hover{
+	color: #f4bdbd;
 }
 
 
