@@ -536,21 +536,22 @@ input:placeholder{
 	/* border: 1px solid #000; */
 	margin-top: 20px;
 }
-.left-hand:hover,
+/* .left-hand:hover,
 .right-hand:hover{
 	background-color: antiquewhite;
 	border: 1px solid red;
-}
+} */
 .list-footer{
 	display: block;
 	width: 120px;
 }
 .list-footer li{
-	padding: 10px;
+	padding-top: 10px;
+	text-align: left;
 }
 .heading-list{
 	padding-top:20px;
-	text-align: center;
+	text-align: left;
 	font-size: 20px;
 	font-weight: bold;
 	font-family: cursive;
@@ -565,6 +566,9 @@ input:placeholder{
 }
 .list-footer li:hover{
 	color: #f4bdbd;
+}
+.last{
+	padding-top: 50px;
 }
 
 
